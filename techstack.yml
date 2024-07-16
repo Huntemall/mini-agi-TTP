@@ -1,0 +1,181 @@
+repo_name: Huntemall/mini-agi-TTP
+report_id: 06b3e37cd94380b94ea4dd1ed1399ef9
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T09:53:41+00:00'
+requested_by: muellerberndt
+provider: github
+branch: main
+detected_tools_count: 13
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP
+  detection_source: Repo Metadata
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/.github/workflows/pylint.yml
+  detection_source: ".github/workflows/pylint.yml"
+  last_updated_by: Bernhard Mueller
+  last_updated_on: 2023-04-19 10:15:45.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bernhard Mueller
+  last_updated_on: 2023-04-15 06:32:05.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 0.27.6
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bernhard Mueller
+  last_updated_on: 2023-04-15 06:32:05.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP
+  detection_source: Repo Metadata
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  version: 1.2.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Alaeddine Abdessalem
+  last_updated_on: 2023-04-21 01:10:19.000000000 Z
+  vulnerabilities:
+  - name: scikit-learn sensitive data leakage vulnerability
+    cve_id: CVE-2024-5206
+    cve_url: https://github.com/advisories/GHSA-jw8x-6495-233v
+    detected_date: Jun 18
+    severity: moderate
+    first_patched: 1.5.0
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Eric Stiens
+  last_updated_on: 2023-04-17 21:00:12.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  version: 4.9.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bernhard Mueller
+  last_updated_on: 2023-04-19 15:32:38.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 0.27.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bernhard Mueller
+  last_updated_on: 2023-05-19 12:04:04.000000000 Z
+- name: python-dotenv
+  description: Add .env support to your django/flask apps in development and deployments
+  package_url: https://pypi.org/project/python-dotenv
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20095/default_3141eabecdd8efa55de73a33c43f2ac0d5bbf954.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Shawn Harmsen
+  last_updated_on: 2023-04-17 09:04:12.000000000 Z
+- name: termcolor
+  description: ANSII Color formatting for output in terminal
+  package_url: https://pypi.org/project/termcolor
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20014/default_9e735547ab71630330a9e635a78e5cedca9ba560.png
+  detection_source_url: https://github.com/Huntemall/mini-agi-TTP/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: Bernhard Mueller
+  last_updated_on: 2023-04-17 05:49:55.000000000 Z
